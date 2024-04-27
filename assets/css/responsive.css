@@ -1,0 +1,252 @@
+@media (max-width: 1442px) {
+    .main , 
+    .section_one , 
+    .section_two , 
+    .section_three,
+    .section_four,   
+    footer {
+        width: 100% !important;
+    }
+    .main_navigation,
+    .integrations_main,
+    .integrations_content,
+    .teams_main_container,
+    .teams_content_container,
+    .footer_container,
+    .block_container,
+    .sectiontwo_container,
+    .sectiontwo_header_text{
+        width: 100% !important;
+    }
+    .main_card {
+        width: 600px !important;
+    }
+    .teams_items_conteiner {
+        width: 700px !important;
+    }
+    .team_items {
+        width: 250px !important;
+    }
+}
+
+@media (max-width: 1230px) {
+    .teams_content_container {
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center;
+        height: 1200px !important;
+        width: 100% !important;
+    }
+    .section_four {
+        height: 2000px !important;
+    }
+    .teams_items_conteiner {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1153px) {
+    footer {
+        height: 1400px !important;
+    }
+    .footer-bottom-links {
+        height: auto !important;
+        display: grid !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .copyright-container, .footer-bottom-links-flex, .footer-security-logos-wrap {
+        margin: 0 auto !important;
+        margin-top: 15px !important;
+    }
+    .footer-icons {
+        visibility: hidden;
+    }
+    .footer_header_container {
+        width: 100% !important;
+    }
+    .header_text_container > h1 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .navigation {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1001px) {
+    .hero_brand_logos {
+        width: 95% !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, 0.1fr) !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .section_two {
+        height: 1100px !important;
+    }
+    .node_container {
+        grid-template-columns: repeat(2, 0.1fr) !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .hamburger_container {
+        visibility: visible !important;
+    }
+    .hamburger-nav {
+        width: 400px!important;
+    }.nav-container {
+        width: 400px  !important;
+    }
+}
+
+@media (max-width: 930px) {
+    footer {
+        height: 1400px !important;
+    }
+    .footer_main_container {
+        height: auto !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .footer_logo_container {
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin-bottom: 60px !important;
+    }
+    .layout-grid {
+        width: 100% !important;
+        display: grid !important;
+        justify-content: center !important;
+        text-align: center;
+        margin: 0 auto !important;
+        grid-template-columns: repeat(3, 0fr) !important;
+    }
+    .footer-bottom-links {
+        margin-top: 0px !important;
+    }
+    .node:nth-child(2) {
+        height: auto !important;
+    }
+    .node:last-child {
+        height: auto !important;
+    }
+    .login__book {
+        display: none !important;
+    }
+    .header_text_container > h1 {
+        font-size: 60px !important;
+    }
+}
+
+@media (max-width: 630px) {
+    footer {
+        height: 1750px !important;
+    }
+    .layout-grid {
+        height: auto !important;
+        grid-template-columns: repeat(1, 0.1fr) !important;
+    }
+    .teams_items_conteiner {
+        width: 98% !important;
+    }
+    .main_card {
+        width: 100% !important; 
+    }
+    .team-item-big-top {
+        width: 100% !important;
+    }
+    .team-item-down {
+        width: 90% !important;
+    }
+    .team-item-down-paragraph {
+        width: 90% !important;
+    }
+    .team-item-down-paragraph > p {
+        width: 90% !important;
+    }
+    .team_title_container {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 580px) {
+    .paragraph_container > p{
+        width: 90% !important;
+    }
+    .header_text_container > h1 {
+        font-size: 3rem !important;
+    }
+    .home_hero_screen {
+        display: none !important;
+    }
+    .home_header {
+        height: 400px !important;
+    }
+    .section_one {
+        height: 1000px !important;
+    }
+    .integrations_header > .header_text {
+        width: 100% !important;
+    }
+    .header_text > .paragraph_container > h5 {
+        width: 100% !important;
+    }
+    .teams_items_conteiner {
+        height: auto !important;
+        grid-template-columns: repeat(1, 0.5fr) !important;
+        margin: 0 auto;align-items: center; justify-content: center;
+    }
+    .section_four {
+        height: 2600px !important;
+    }
+    .hero_trusted_by , .hero_brand_logos {
+        height: auto !important;
+    }
+    .hero_brand_logos {
+        grid-template-columns: repeat(2, 0.1fr) !important;
+    }
+    .home_text > .paragraph_container {
+        height: auto !important;
+    }
+    .hero_trusted_by > .hero_header_text {
+        width: 100% !important;
+    }
+    .main, html, body {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .node_container {
+        grid-template-columns: repeat(1, 0.1fr) !important;
+    }
+    .section_two {
+        height: 1800px !important;
+    }
+    .header_text > .h2_container > h2{
+        width: 100% !important;
+    }
+    .footer-bottom-links > .footer-bottom-links-flex {
+        width: 80% !important;
+        margin-bottom: 50px !important;
+        margin-top: 50px !important;
+    }
+    footer {
+        height: 1850px !important;
+    }
+    .hamburger-nav {
+        width: 100% !important;
+        z-index: 0;
+        justify-content: center !important;
+    }
+    .nav-container {
+        width: 200px !important;
+    }
+}
